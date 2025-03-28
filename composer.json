@@ -1,5 +1,5 @@
 {
-    "name": "your-name-here/social-feed",
+    "name": "adelallozy/cakephp-social-news-feed",
     "description": "SocialFeed plugin for CakePHP",
     "type": "cakephp-plugin",
     "license": "MIT",
