@@ -1,1 +1,1 @@
--- Test database schema for SocialFeed
+-- Test database schema for SocialStream

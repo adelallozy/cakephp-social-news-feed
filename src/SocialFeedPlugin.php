@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace SocialFeed;
+namespace SocialStream;
 
 use Cake\Console\CommandCollection;
 use Cake\Core\BasePlugin;
@@ -11,9 +11,9 @@ use Cake\Http\MiddlewareQueue;
 use Cake\Routing\RouteBuilder;
 
 /**
- * Plugin for SocialFeed
+ * Plugin for SocialStream
  */
-class SocialFeedPlugin extends BasePlugin
+class SocialStreamPlugin extends BasePlugin
 {
     /**
      * Load all the plugin configuration and bootstrap logic.
@@ -40,8 +40,8 @@ class SocialFeedPlugin extends BasePlugin
     public function routes(RouteBuilder $routes): void
     {
         $routes->plugin(
-            'SocialFeed',
-            ['path' => '/social-feed'],
+            'SocialStream',
+            ['path' => '/social'],
             function (RouteBuilder $builder) {
                 // Add custom routes here
 

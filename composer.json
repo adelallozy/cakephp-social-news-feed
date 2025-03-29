@@ -1,6 +1,6 @@
 {
     "name": "adelallozy/cakephp-social-news-feed",
-    "description": "SocialFeed plugin for CakePHP",
+    "description": "Social Stream plugin for CakePHP",
     "type": "cakephp-plugin",
     "license": "MIT",
     "require": {
@@ -12,12 +12,12 @@
     },
     "autoload": {
         "psr-4": {
-            "SocialFeed\\": "src/"
+            "SocialStream\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SocialFeed\\Test\\": "tests/",
+            "SocialStream\\Test\\": "tests/",
             "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
         }
     }

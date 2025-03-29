@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace SocialFeed\Controller;
+namespace SocialStream\Controller;
 
 use App\Controller\AppController as BaseController;
 

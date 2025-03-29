@@ -1,4 +1,4 @@
-# SocialFeed plugin for CakePHP
+# SocialStream plugin for CakePHP
 
 ## Installation
 
